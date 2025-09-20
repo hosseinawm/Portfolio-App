@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Recipe Website",
+    "demo": "https://recipes-practical-project-1rke.vercel.app/",
+    "description": "A responsive recipe website with dynamic pagination, favorites management, and a dedicated favorites page. Includes login and registration pages with full UI/UX design (currently frontend only).",
+    "tech": ["React", "Axios", "Redux", "MUI"]
+  },
+  {
+    "id": 2,
+    "title": "Dashboard Website",
+    "demo": "https://ariana-lab-s-task.vercel.app/",
+    "description": "A responsive authentication system and dashboard built from a real task. Features real-time form validation, integration with a live authentication API, personalized dashboard with user details, and a modal-driven logout confirmation flow for better UX.",
+    "tech": ["React", "Axios", "Redux", "MUI"]
+  }
+]

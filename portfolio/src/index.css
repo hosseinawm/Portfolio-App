@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  height: 100vh;
+  color: rgb(223, 208, 184);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo-text {
+  font-family: "Oswald", sans-serif;
+}
