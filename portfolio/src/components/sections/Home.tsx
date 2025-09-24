@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center "
+      className="min-h-screen flex items-center justify-center scrollbar"
     >
       <div className="text-center z-10 px-4">
         <h1
@@ -14,7 +14,7 @@ const Home = () => {
         >
           Hi, I’m Hossein Matari
         </h1>
-        <p className=" text-lg mb-8 max-w-lg mx-auto">
+        <p className=" text-lg mb-8 max-w-lg mx-auto font-mono">
           I'm a frontend developer passionate about creating modern,
           user-friendly web applications. I love pushing boundaries with the
           latest technologies and continuously growing my skills to build

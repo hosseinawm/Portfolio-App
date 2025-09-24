@@ -1,4 +1,4 @@
-import projects from "../../../public/projects.json";
+import projects from "../../data/projects.json";
 
 const Projects = () => {
   return (
@@ -33,9 +33,10 @@ const Projects = () => {
 
                 <a
                   href={project.demo}
+                  target="_blank"
                   className="flex items-center gap-2 border border-[#dfd0b8] text-[#dfd0b8] px-3 py-1 rounded-2xl font-medium relative hover:bg-[#d4a373] hover:-translate-y-0.5 self-end sm:self-auto mt-2 sm:mt-0"
                 >
-                  Demo
+                  View Project
                   <i className="fa-solid fa-arrow-right fa-fade"></i>
                 </a>
               </div>
